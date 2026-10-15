@@ -75,12 +75,12 @@ Backend system for fleet and order management built with .NET and modern backend
 **Highlights**
 - Clean Architecture
 - CQRS with MediatR
-- Saga Pattern for distributed workflows
-- RabbitMQ Messaging
+- EF Core & SQL Server
+- RabbitMQ asynchronous messaging
 - Transactional Outbox Pattern
-- Resilience with Polly
-- Background Processing
-- SQL Server & EF Core
+- Publisher Confirms & persistent messages
+- Batch-based background processing
+- Failure tracking and retry handling
 
 [View Repository](https://github.com/EbrahemElzeer/FleetOps)
 
@@ -104,9 +104,9 @@ Backend-focused e-commerce application demonstrating API design and clean separa
 ## 💼 Professional Experience
 
 ### 🎓 School Management & LMS Platform
-**Backend .NET Developer — Production System**
+**Backend .NET Developer @ Bennu-Tech | May 2024 – Present**
 
-Contributed to the development and maintenance of a large School Management and LMS platform used to manage students, exams, attendance, payments, reports, notifications, and mobile services.
+Contributed to the development and maintenance of a production School Management and LMS platform used to manage students, exams, attendance, payments, reports, notifications, and mobile services.
 
 **Key Contributions**
 - Developed and maintained ASP.NET Core REST APIs.
